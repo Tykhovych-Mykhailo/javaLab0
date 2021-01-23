@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-09T17:14:25 EET" name="Default suite" finished-at="2020-11-09T17:14:25 EET" duration-ms="239">
+    <groups>
+    </groups>
+    <test started-at="2020-11-09T17:14:25 EET" name="Default test" finished-at="2020-11-09T17:14:25 EET" duration-ms="239">
+      <class name="test.TestProgram">
+        <test-method signature="arrayTest([I, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="arrayTest" data-provider="arrayProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@1623b78d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrayTest -->
+        <test-method signature="arrayTest([I, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="arrayTest" data-provider="arrayProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@c8c12ac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrayTest -->
+        <test-method signature="arrayTest([I, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="arrayTest" data-provider="arrayProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@6adbc9d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrayTest -->
+        <test-method signature="booleanTest(int, int, int, boolean)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="booleanTest" data-provider="booleanProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booleanTest -->
+        <test-method signature="booleanTest(int, int, int, boolean)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="booleanTest" data-provider="booleanProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booleanTest -->
+        <test-method signature="caseTest(int, java.lang.String)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="caseTest" data-provider="caseProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1980]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The year of black pig]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- caseTest -->
+        <test-method signature="caseTest(int, java.lang.String)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="caseTest" data-provider="caseProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2020]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The year of yellow rabbit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- caseTest -->
+        <test-method signature="caseTest(int, java.lang.String)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="caseTest" data-provider="caseProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- caseTest -->
+        <test-method signature="forTest(int, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="forTest" data-provider="forProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forTest -->
+        <test-method signature="forTest(int, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="forTest" data-provider="forProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forTest -->
+        <test-method signature="forTest(int, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="forTest" data-provider="forProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forTest -->
+        <test-method signature="ifTest([I, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="ifTest" data-provider="ifProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4550bb58]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ifTest -->
+        <test-method signature="ifTest([I, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="ifTest" data-provider="ifProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4ec4f3a0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ifTest -->
+        <test-method signature="ifTest([I, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="ifTest" data-provider="ifProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@223191a6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ifTest -->
+        <test-method signature="integerTest(int, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="integerTest" data-provider="integerProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3601]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integerTest -->
+        <test-method signature="integerTest(int, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="integerTest" data-provider="integerProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integerTest -->
+        <test-method signature="matrixTest([[I, [I)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="matrixTest" data-provider="matrixProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[I@49139829]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@9597028]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- matrixTest -->
+        <test-method signature="minMaxTest([I, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="minMaxTest" data-provider="minMaxProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@6069db50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minMaxTest -->
+        <test-method signature="minMaxTest([I, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="minMaxTest" data-provider="minMaxProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4efbca5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minMaxTest -->
+        <test-method signature="whileTest(int, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="whileTest" data-provider="whileProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whileTest -->
+        <test-method signature="whileTest(int, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="whileTest" data-provider="whileProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whileTest -->
+        <test-method signature="whileTest(int, int)[pri:0, instance:test.TestProgram@37918c79]" started-at="2020-11-09T17:14:25 EET" name="whileTest" data-provider="whileProvider" finished-at="2020-11-09T17:14:25 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whileTest -->
+      </class> <!-- test.TestProgram -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
